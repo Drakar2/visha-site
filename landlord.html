@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landlord Agreement - Visha Property Managers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background: #f8f9fa;
+    }
+    header, section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #555;
+    }
+    button {
+      padding: 12px 20px;
+      background: #2980b9;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Visha Property Managers Ltd</h1>
+    <p>PO BOX 162341, Kampala, Uganda</p>
+    <p>Tel: 0755460221 / 0772292868 / 0756849809</p>
+    <p>Email: vishapropertymanagers427@gmail.com</p>
+  </header>
+
+  <section>
+    <h2>Landlord Registration and Agreement Form</h2>
+    <form action="https://formsubmit.co/vishapropertymanagers427@gmail.com" method="POST" enctype="multipart/form-data">
+      
+      <label for="date">Date:</label>
+      <input type="date" name="Date" required>
+
+      <h3>Property Owner's Details</h3>
+      <label for="owner_name">Full Name:</label>
+      <input type="text" name="Owner Name" required>
+
+      <label for="id_number">Identification Number:</label>
+      <input type="text" name="ID Number" required>
+
+      <label for="address">Address:</label>
+      <input type="text" name="Address" required>
+
+      <label for="passport">Passport Photo:</label>
+      <input type="file" name="Passport Photo" accept="image/*" required>
+
+      <label for="telephone">Telephone:</label>
+      <input type="tel" name="Telephone" required>
+
+      <label for="email">Email:</label>
+      <input type="email" name="Email" required>
+
+      <label for="account">Account Details:</label>
+      <input type="text" name="Account Details" required>
+
+      <h3>Property Details</h3>
+      <label for="property_type">Type of Property:</label>
+      <input type="text" name="Property Type" required>
+
+      <label for="units">Number of Units:</label>
+      <input type="number" name="Number of Units" required>
+
+      <label for="location">Location:</label>
+      <input type="text" name="Location" required>
+
+      <label for="condition">Condition of Property:</label>
+      <textarea name="Condition" rows="3" required></textarea>
+
+      <h3>Official Use Only</h3>
+      <label for="commission">Monthly Commission %:</label>
+      <input type="text" name="Monthly Commission %">
+
+      <label for="duration">Contract Duration (Years):</label>
+      <input type="text" name="Contract Duration">
+
+      <label for="terms">Commission Payment Terms:</label>
+      <textarea name="Commission Terms" rows="3"></textarea>
+
+      <h3>Agreement and Signature</h3>
+      <p class="note">Please sign after reading and understanding the terms and conditions stated in the contract.</p>
+
+      <label for="signature">Owner's Signature:</label>
+      <input type="text" name="Owner Signature">
+
+      <label for="witness">Witness Name:</label>
+      <input type="text" name="Witness Name">
+
+      <button type="submit">Submit Form</button>
+    </form>
+  </section>
+
+</body>
+</html>

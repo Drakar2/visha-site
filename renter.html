@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Renter Application - Visha Property Managers</title>
+</head>
+<body>
+  <h2>Visha Property Managers Ltd</h2>
+  <p>PO BOX 162341 KAMPALA UGANDA</p>
+  <p>Tel: 0755460221 / 0772292868 / 0756849809</p>
+  <p>Email: vishapropertymanagers427@gmail.com</p>
+  <p>Date: .............</p>
+
+  <form action="https://formsubmit.co/vishapropertymanagers427@gmail.com" method="POST" enctype="multipart/form-data">
+    <h3>Tenant Details</h3>
+    <label>Tenant Name:</label><br>
+    <input type="text" name="tenant_name" required><br>
+
+    <label>Identification Number:</label><br>
+    <input type="text" name="id_number" required><br>
+
+    <label>Phone Number:</label><br>
+    <input type="text" name="phone" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br>
+
+    <label>Attach passport photo:</label><br>
+    <input type="file" name="passport_photo" accept="image/*" required><br>
+
+    <h3>Property Information</h3>
+    <label>Location:</label><br>
+    <input type="text" name="property_location" required><br>
+
+    <label>Type of Unit:</label><br>
+    <input type="text" name="unit_type" required><br>
+
+    <label>Monthly Rent Amount:</label><br>
+    <input type="text" name="rent_amount" required><br>
+
+    <label>Security Deposit:</label><br>
+    <input type="text" name="deposit" required><br>
+
+    <label>UMEME Meter Reading:</label><br>
+    <input type="text" name="umeme_reading" required><br>
+
+    <label>NWIC Meter Reading:</label><br>
+    <input type="text" name="nwic_reading" required><br>
+
+    <h3>Agreement & Terms</h3>
+    <textarea name="renter_agreement" rows="30" required>
+      <!-- Paste full tenancy agreement text provided -->
+      [Insert all renter agreement terms here including clauses, payment, termination, and conditions.]
+    </textarea><br>
+
+    <h3>Signatures</h3>
+    <label>Tenant Signature:</label><br>
+    <input type="text" name="tenant_signature" required><br>
+
+    <label>Agent Signature:</label><br>
+    <input type="text" name="agent_signature" required><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
